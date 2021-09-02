@@ -17,7 +17,7 @@ use Anomaly\DashboardModule\Widget\Contract\WidgetRepositoryInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
-use Visiosoft\AdvsModule\Adv\Command\DeleteInstaller;
+use Visiosoft\ClassifiedsModule\Classified\Command\DeleteInstaller;
 use WidgetSeeder;
 use ZipArchive;
 
@@ -120,14 +120,14 @@ class DatabaseSeeder extends Seeder
         );
 
         $repository = "https://raw.githubusercontent.com/openclassify/Openclassify-Demo-Data/master/";
-        file_put_contents(storage_path('advs.sql'), fopen($repository . "advs.sql", 'r'));
+        file_put_contents(storage_path('classifieds.sql'), fopen($repository . "classifieds.sql", 'r'));
         file_put_contents(storage_path('settings.sql'), fopen($repository . "settings.sql", 'r'));
         file_put_contents(storage_path('categories.sql'), fopen($repository . "categories.sql", 'r'));
         file_put_contents(storage_path('images.zip'), fopen($repository . "images.zip", "r"));
         file_put_contents(storage_path('cats.zip'), fopen($repository . "cats.zip", "r"));
 
         Model::unguard();
-        DB::unprepared(file_get_contents(storage_path('advs.sql')));
+        DB::unprepared(file_get_contents(storage_path('classifieds.sql')));
         DB::unprepared(file_get_contents(storage_path('categories.sql')));
         DB::unprepared(file_get_contents(storage_path('settings.sql')));
         Model::reguard();
@@ -149,15 +149,15 @@ class DatabaseSeeder extends Seeder
         dispatch_now(new DeleteInstaller());
 
 
-        if (is_null($this->folders->findBy('slug', 'ads_excel'))) {
+        if (is_null($this->folders->findBy('slug', 'classifieds_excel'))) {
             $disk = $this->disks->findBySlug('local');
 
             $this->folders->create([
                 'en' => [
-                    'name' => 'Ads Excel',
-                    'description' => 'A folder for Ads Excel.',
+                    'name' => 'Classifieds Excel',
+                    'description' => 'A folder for Classifieds Excel.',
                 ],
-                'slug' => 'ads_excel',
+                'slug' => 'classifieds_excel',
                 'disk' => $disk,
             ]);
         };
@@ -207,16 +207,16 @@ class DatabaseSeeder extends Seeder
         }
 
 
-        //Create Ads Documents Folder
-        if (is_null($this->folders->findBy('slug', 'ads_documents'))) {
+        //Create Classifieds Documents Folder
+        if (is_null($this->folders->findBy('slug', 'classifieds_documents'))) {
             $disk = $this->disks->findBySlug('local');
 
             $this->folders->create([
                 'en' => [
-                    'name' => 'Ads Documents',
-                    'description' => 'A folder for Ads Documents.',
+                    'name' => 'Classifieds Documents',
+                    'description' => 'A folder for Classifieds Documents.',
                 ],
-                'slug' => 'ads_documents',
+                'slug' => 'classifieds_documents',
                 'disk' => $disk,
                 'allowed_types' => [
                     'pdf', 'doc', 'docx', 'xls', 'xlsx',
