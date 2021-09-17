@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Mainokset',
     'user' => 'Käyttäjä',
     'filter' => 'Suodattaa',
-    'create_ad' => 'Luo mainos',
+    'create_classified' => 'Luo mainos',
     'options' => [
         'title' => 'Vaihtoehdot',
     ],

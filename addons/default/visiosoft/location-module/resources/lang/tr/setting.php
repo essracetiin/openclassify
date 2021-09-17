@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Varsayılan Ülke',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'İlan Sayfası Konumu Oluşturun',
     ],
     'default_city' => [

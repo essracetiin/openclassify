@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Son elanlar',
+    'latest_classifieds' => 'Son elanlar',
     'show_all' => 'Hamısını göstər',
     'login' => [
         'name' => 'Daxil ol',

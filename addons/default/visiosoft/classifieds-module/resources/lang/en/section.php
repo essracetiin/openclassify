@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Classifieds',
     'user' => 'User',
     'filter' => 'Filter',
-    'create_ad' => 'Create Classified',
+    'create_classified' => 'Create Classified',
     'options' => [
         'title' => 'Options',
     ],

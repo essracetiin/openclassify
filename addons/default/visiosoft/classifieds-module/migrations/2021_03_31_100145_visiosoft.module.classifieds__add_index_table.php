@@ -15,7 +15,7 @@ class VisiosoftModuleClassifiedsAddIndexTable extends Migration
 			$table->index('city');
 			$table->index('finish_at');
 			$table->index('status');
-			$table->index('count_show_ad');
+			$table->index('count_show_classified');
 		});
 	}
 }

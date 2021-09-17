@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Piata de desfacere',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Ascundeți informațiile despre vânzător',
         'instructions' => 'Ascunderea informațiilor despre vânzător în pagina de detalii a anunțurilor',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Afișați acordul de postare a anunțului',
         'instructions' => 'Activați acest lucru dacă doriți să afișați un acord privind politica de confidențialitate pe pagina de creare a anunțului',
     ],

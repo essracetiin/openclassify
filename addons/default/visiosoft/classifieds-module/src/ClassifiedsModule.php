@@ -14,7 +14,7 @@ class ClassifiedsModule extends Module
                 'new_classified' => [
                      'href' => "/classifieds/create_classified",
                 ],
-                'new_classified' => [
+                'new_fast_classified' => [
                     'text' => 'visiosoft.module.classifieds::button.fast_create'
                 ],
                 'extend_all' => [

@@ -2,7 +2,7 @@
 
 use Visiosoft\ClassifiedsModule\Classified\Contract\ClassifiedRepositoryInterface;
 
-class GetAd
+class GetClassified
 {
 
     /**

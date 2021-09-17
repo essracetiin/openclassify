@@ -230,7 +230,7 @@ return [
         'name' => 'Hide Seller Information',
         'instructions' => 'Hiding to seller infos in classifieds detail page',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Show Post Classified Agreement',
         'instructions' => 'Turn this on if you want to display a privacy policy agreement on the classified creation page',
     ],
@@ -268,7 +268,7 @@ return [
     'show_price_to_members_only' => [
         'name' => 'Show Price To Members Only',
     ],
-    'hide_ad_cat' => [
+    'hide_classified_cat' => [
         'name' => 'Hide Categories',
         'instructions' => 'Hide categories in classifieds list'
     ],
@@ -293,5 +293,8 @@ return [
     ],
     'only_email_login' => [
         'name' => 'Only Email Login'
+    ],
+    'classifieds_image_limit' => [
+        'name' => 'Classified Image Limit',
     ]
 ];

@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Hirdetések',
     'user' => 'Felhasználó',
     'filter' => 'Szűrő',
-    'create_ad' => 'Hirdetés létrehozása',
+    'create_classified' => 'Hirdetés létrehozása',
     'options' => [
         'title' => 'Lehetőségek',
     ],

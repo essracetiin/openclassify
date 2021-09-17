@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Anuncios',
     'user' => 'Usuario',
     'filter' => 'Filtrar',
-    'create_ad' => 'Crear anuncio',
+    'create_classified' => 'Crear anuncio',
     'options' => [
         'title' => 'Opciones',
     ],

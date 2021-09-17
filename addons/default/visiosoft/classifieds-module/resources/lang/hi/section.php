@@ -41,7 +41,7 @@ return [
     'classifieds' => 'विज्ञापन',
     'user' => 'उपयोगकर्ता',
     'filter' => 'फ़िल्टर',
-    'create_ad' => 'विज्ञापन बनाना',
+    'create_classified' => 'विज्ञापन बनाना',
     'options' => [
         'title' => 'विकल्प',
     ],

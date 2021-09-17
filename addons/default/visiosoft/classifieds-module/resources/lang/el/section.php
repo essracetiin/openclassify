@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Διαφημίσεις',
     'user' => 'Χρήστης',
     'filter' => 'Φίλτρο',
-    'create_ad' => 'Δημιουργία διαφήμισης',
+    'create_classified' => 'Δημιουργία διαφήμισης',
     'options' => [
         'title' => 'Επιλογές',
     ],

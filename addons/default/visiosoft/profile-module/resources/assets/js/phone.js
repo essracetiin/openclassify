@@ -1,1 +1,1 @@
-phoneMask("input[name='adress_gsm_phone']")
+phoneMask("input[name='adress_gsm_phone']");

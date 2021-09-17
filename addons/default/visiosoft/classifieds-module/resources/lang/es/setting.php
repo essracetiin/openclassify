@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Market Place',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Ocultar información del vendedor',
         'instructions' => 'Ocultar información del vendedor en la página de detalles de anuncios',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Mostrar acuerdo de publicación',
         'instructions' => 'Active esta opción si desea mostrar un acuerdo de política de privacidad en la página de creación de anuncios.',
     ],

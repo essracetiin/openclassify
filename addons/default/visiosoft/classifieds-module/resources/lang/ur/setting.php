@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'مارکیٹ پلیس',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'بیچنے والے کی معلومات چھپائیں',
         'instructions' => 'اشتہارات کے تفصیل والے صفحے میں بیچنے والے انفو کو چھپا رہے ہیں',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'پوسٹ اشتہار کا معاہدہ دکھائیں',
         'instructions' => 'اگر آپ اشتہار تخلیق کے صفحے پر رازداری کی پالیسی کا معاہدہ ظاہر کرنا چاہتے ہیں تو اسے آن کریں',
     ],

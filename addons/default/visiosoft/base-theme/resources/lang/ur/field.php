@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'تازہ ترین اشتہارات',
+    'latest_classifieds' => 'تازہ ترین اشتہارات',
     'show_all' => 'سارے دکھاو',
     'login' => [
         'name' => 'لاگ ان کریں',

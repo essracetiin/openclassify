@@ -20,7 +20,7 @@ return [
             'default_value' => true,
         ],
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'type' => 'anomaly.field_type.boolean',
         'config' => [
             'default_value' => true,

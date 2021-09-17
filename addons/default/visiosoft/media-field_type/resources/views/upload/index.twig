@@ -15,9 +15,8 @@
 
 </div>
 <script>
-
-    var imageCount = {{ field_type.value|length < setting_value('visiosoft.module.classifieds::ads_image_limit')
-    ? setting_value('visiosoft.module.classifieds::ads_image_limit') - field_type.value|length
+    var imageCount = {{ field_type.value|length < setting_value('visiosoft.module.classifieds::classifieds_image_limit')
+    ? setting_value('visiosoft.module.classifieds::classifieds_image_limit') - field_type.value|length
     : 0 }};
 
     var settings_image = {

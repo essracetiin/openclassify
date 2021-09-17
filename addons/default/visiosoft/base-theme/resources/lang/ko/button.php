@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => '광고 게시',
     ],
     'login' => '로그인',

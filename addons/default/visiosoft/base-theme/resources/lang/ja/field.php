@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => '最新の広告',
+    'latest_classifieds' => '最新の広告',
     'show_all' => 'すべて表示する',
     'login' => [
         'name' => 'ログインする',

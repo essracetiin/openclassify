@@ -45,7 +45,7 @@ return [
 
     // Side menu links
     'company_directory' => 'Annuaire d\'entreprises',
-    'popular_ads' => 'Annonces populaires',
+    'popular_classifieds' => 'Annonces populaires',
     'last_48_hours' => '48 dernières heures',
     'secure_e-commerce_ads' => 'Annonces e-commerce sécurisées',
     'sms' => 'Envoyer un message texte (SMS)',

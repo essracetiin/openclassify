@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'المتجر',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'إخفاء معلومات البائع',
         'instructions' => 'إخفاء معلومات البائع في صفحة تفاصيل الإعلانات',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'إظهار اتفاقية ما بعد الإعلان',
         'instructions' => 'قم بتشغيل هذا إذا كنت تريد عرض اتفاقية سياسة الخصوصية على صفحة إنشاء الإعلان',
     ],

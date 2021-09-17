@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Cihê Sûkê',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Agahdariya Firoterê Veşêre',
         'instructions' => 'Di rûpelê hûrguliyên reklaman de veşartina agahdariya firotanê',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Peymana Classified Classified-ê nîşan bide',
         'instructions' => 'Heke hûn dixwazin li ser rûpela afirandina reklamê peymana siyaseta nepenîtiyê nîşan bikin vê yekê vekin',
     ],

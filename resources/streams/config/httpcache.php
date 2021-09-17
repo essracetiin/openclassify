@@ -35,8 +35,8 @@ return [
     */
 
     'excluded' => [
-        '/advs/create_adv',
-        '/advs/edit_advs/*',
+        '/classifieds/create_classified',
+        '/classifieds/edit_classifieds/*',
         '/profile',
         '/profile/*',
         '/ajax/*',

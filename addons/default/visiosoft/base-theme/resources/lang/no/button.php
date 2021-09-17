@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => 'Legg ut annonse',
     ],
     'login' => 'Logg Inn',

@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Shtet i paracaktuar',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Krijoni vendndodhjen e faqes së Njoftimet',
     ],
     'default_city' => [

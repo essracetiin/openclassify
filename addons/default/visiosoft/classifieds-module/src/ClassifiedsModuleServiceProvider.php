@@ -77,7 +77,7 @@ class ClassifiedsModuleServiceProvider extends AddonServiceProvider
             'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@index'
         ],
         'classifieds/list?user={id}' => [
-            'as' => 'visiosoft.module.classifieds::list_user_ad',
+            'as' => 'visiosoft.module.classifieds::list_user_classified',
             'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@index',
         ],
         'classifieds/list?cat={id}' => [
@@ -105,7 +105,7 @@ class ClassifiedsModuleServiceProvider extends AddonServiceProvider
             'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@preview'
         ],
         'classifieds/map?country={country}&city[]={city}&district={districts}' => [
-            'as' => 'visiosoft.module.classifieds::show_ad_map_location',
+            'as' => 'visiosoft.module.classifieds::show_classified_map_location',
             'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@index'
         ],
         'c/{category?}/{city?}' => [
@@ -135,7 +135,7 @@ class ClassifiedsModuleServiceProvider extends AddonServiceProvider
         ],
         'classifieds/delete/{id}' => [
             'as' => 'classifieds::delete',
-            'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@deleteAd',
+            'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@deleteClassified',
         ],
         'classified/addCart/{id}' => [
             'as' => 'classified_AddCart',
@@ -156,7 +156,7 @@ class ClassifiedsModuleServiceProvider extends AddonServiceProvider
         'classified/edit/category/{id}' => [
             'middleware' => 'auth',
             'as' => 'classified::edit_category',
-            'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@editCategoryForAd',
+            'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@editCategoryForClassified',
         ],
         'ajax/getcats/{id}' => [
             'as' => 'ajax::getCats',
@@ -166,13 +166,13 @@ class ClassifiedsModuleServiceProvider extends AddonServiceProvider
             'as' => 'classifieds::extendAll',
             'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@extendAll',
         ],
-        'classifieds/extend/{adId}' => [
+        'classifieds/extend/{classifiedId}' => [
             'as' => 'classifieds::extendSingle',
             'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@extendSingle',
         ],
         'categories/checkparent/{id}' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@checkParentCat',
         'getlocations' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@getLocations',
-        'class/getcats/{id}' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@getCatsForNewAd',
+        'class/getcats/{id}' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@getCatsForNewClassified',
         'mapJson' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@mapJson',
         'check_user' => 'Visiosoft\ClassifiedsModule\Http\Controller\ClassifiedsController@checkUser',
 
@@ -244,7 +244,7 @@ class ClassifiedsModuleServiceProvider extends AddonServiceProvider
         'admin/classifieds/product_options/edit/{id}' => 'Visiosoft\ClassifiedsModule\Http\Controller\Admin\ProductoptionsController@edit',
 
         // StatusController
-        'classified/{ad_id}/change-status/{status_id}' => [
+        'classified/{classified_id}/change-status/{status_id}' => [
             'as' => 'visiosoft.module.classifieds::classified.change.status',
             'uses' => 'Visiosoft\ClassifiedsModule\Http\Controller\StatusController@change'
         ],

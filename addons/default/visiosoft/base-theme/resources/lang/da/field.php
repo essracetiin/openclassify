@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Seneste annoncer',
+    'latest_classifieds' => 'Seneste annoncer',
     'show_all' => 'Vis alt',
     'login' => [
         'name' => 'Log på',

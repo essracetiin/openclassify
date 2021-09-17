@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'أحدث الإعلانات',
+    'latest_classifieds' => 'أحدث الإعلانات',
     'show_all' => 'عرض الكل',
     'login' => [
         'name' => 'تسجيل الدخول',

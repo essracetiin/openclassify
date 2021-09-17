@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Προεπιλεγμένη χώρα',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Δημιουργία τοποθεσίας σελίδας διαφήμισης',
     ],
     'default_city' => [

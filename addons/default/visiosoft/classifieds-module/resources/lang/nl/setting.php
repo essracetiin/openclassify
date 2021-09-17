@@ -230,7 +230,7 @@ zullen niet zichtbaar zijn en ontzegt u van het bedrijfslidmaatschap.'
         'name' => 'Verberg verkopersinformatie',
         'instructions' => 'Verbergen voor verkopersinformatie op de detailpagina van classifiedertenties',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Toon classifiedertentieovereenkomst',
         'instructions' => 'Schakel dit in als u een privacybeleidsovereenkomst wilt weergeven op de pagina voor het maken van classifiedertenties',
     ],

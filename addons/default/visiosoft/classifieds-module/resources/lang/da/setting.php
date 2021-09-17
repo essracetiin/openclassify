@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Markedsplclassifieds',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Skjul sælgeroplysninger',
         'instructions' => 'Skjuler sig for sælgerinfo på siden med annoncer',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Vis indlægsaftale',
         'instructions' => 'Slå dette til, hvis du vil vise en aftale om fortrolighedspolitik på siden til oprettelse af annoncer',
     ],

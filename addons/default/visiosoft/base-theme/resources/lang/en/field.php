@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Latest Classifieds',
+    'latest_classifieds' => 'Latest Classifieds',
     'show_all' => 'Show All',
     'login' => [
         'name' => 'Login',
@@ -45,7 +45,7 @@ return [
 
     // Side menu links
     'company_directory' => 'Company directory',
-    'popular_classified' => 'Popular Classifieds',
+    'popular_classifieds' => 'Popular Classifieds',
     'last_48_hours' => 'Last 48 Hours',
     'secure_e-commerce_classified' => 'Secure e-Commerce Classifieds',
     'sms' => 'Send Text Message (SMS)',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => 'Publicar anunci',
     ],
     'login' => 'iniciar Sessió',

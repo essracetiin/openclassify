@@ -41,7 +41,7 @@ return [
     'classifieds' => 'বিজ্ঞাপন',
     'user' => 'ব্যবহারকারী',
     'filter' => 'ছাঁকনি',
-    'create_ad' => 'বিজ্ঞাপন তৈরি করুন',
+    'create_classified' => 'বিজ্ঞাপন তৈরি করুন',
     'options' => [
         'title' => 'বিকল্পগুলি',
     ],

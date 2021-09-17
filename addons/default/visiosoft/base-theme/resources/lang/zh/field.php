@@ -45,7 +45,7 @@ return [
 
     // Side menu links
     'company_directory' => '公司目录',
-    'popular_ads' => '热门广告',
+    'popular_classifieds' => '热门广告',
     'last_48_hours' => '最近48小时',
     'secure_e-commerce_ads' => '安全的电子商务广告',
     'sms' => '发送短信（SMS）',

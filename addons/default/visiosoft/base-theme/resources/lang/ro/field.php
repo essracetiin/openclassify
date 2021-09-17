@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Ultimele reclame',
+    'latest_classifieds' => 'Ultimele reclame',
     'show_all' => 'Arata tot',
     'login' => [
         'name' => 'Autentificare',

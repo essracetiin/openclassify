@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Standaard land',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Locatie van advertentiepagina maken',
     ],
     'default_city' => [

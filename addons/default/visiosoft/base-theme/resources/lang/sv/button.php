@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => 'Postannons',
     ],
     'login' => 'Logga in',

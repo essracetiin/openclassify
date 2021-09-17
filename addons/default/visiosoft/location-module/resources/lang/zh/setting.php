@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => '默认国家',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => '创建广告页面位置',
     ],
     'default_city' => [

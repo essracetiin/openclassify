@@ -186,7 +186,7 @@ return [
     'complaint_placeholder' => 'وردەکاری سکاڵاکانت لێرە بنوسە
 ',
     'show_details' => 'کیته‌کیتەكان نیشاندە',
-    'ad_actions' => 'کرداری ڕیکلام',
+    'classified_actions' => 'کرداری ڕیکلام',
     'edit' => 'دەستکاری بکە',
     'approve' => 'پەسەندی بکە
 ',
@@ -223,7 +223,7 @@ return [
 ',
     'asap' => 'پەیام بنێرە ، فرۆشیار بەم زووانە پەیوەندیت پێوە دەکات
 ',
-    'ad_id' => 'ناسنامەی ڕیکلام
+    'classified_id' => 'ناسنامەی ڕیکلام
 ',
     'contact_with' => 'پەیوەندی لەگەڵ
 ',
@@ -233,7 +233,7 @@ return [
 ',
     'mandatory_fields' => 'زەوی پێویستن
 ',
-    'ad_post' => 'ڕیکلامی دانێ',
+    'classified_post' => 'ڕیکلامی دانێ',
     'sell_item' => 'شتومەک یان خزمەتگوزاری بفرۆشە
 ',
     'search_save' => 'گەڕانی دڵخواز بە سەرکەوتوویی خەزنکراو
@@ -252,7 +252,7 @@ return [
 ',
     'search_on_map' => 'گەڕان لەسەر نەخشە
 ',
-    'post_free_ad' => 'ڕیکلامی بەلاش دابنێ
+    'post_free_classified' => 'ڕیکلامی بەلاش دابنێ
 ',
     'select_a_category' => 'کەتێگۆری هەڵبژێرە
 ',
@@ -405,7 +405,7 @@ return [
     'update_my_contact_info' => 'زانیاری پەیوەندیم نوێ بکەرەوە
 ',
     'contact_info' => 'زانیاری پەیوەندی',
-    'ad_info' => 'زانیاری ڕێکلام
+    'classified_info' => 'زانیاری ڕێکلام
 ',
 
     // Select cat
@@ -423,13 +423,13 @@ return [
     'preview' => 'پێشبینین
 ',
     'congratulations' => 'پیرۆزبایی',
-    'ad_desc' => 'دەربارەی ڕێکلام',
+    'classified_desc' => 'دەربارەی ڕێکلام',
     'upload_photos' => 'وێنەکانی دانێن',
     'upload_files' => 'فایلەکان دابنێن
 ',
     'additional_fields' => 'زەوی زیادەکان
 ',
-    'ad_location' => 'شوێنی ڕێکلام
+    'classified_location' => 'شوێنی ڕێکلام
 ',
     'owner' => 'Xwedî',
     'default_owner_instruction' => 'Ger bikarhêner neyê bijartin dê xwedêgiravî ji bikarhênerê heyî re veqetîne',

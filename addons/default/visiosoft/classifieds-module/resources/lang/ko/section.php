@@ -41,7 +41,7 @@ return [
     'classifieds' => '광고',
     'user' => '사용자',
     'filter' => '필터',
-    'create_ad' => '광고 작성',
+    'create_classified' => '광고 작성',
     'options' => [
         'title' => '옵션',
     ],

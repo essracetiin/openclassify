@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Njoftimi',
     'user' => 'Përdorues',
     'filter' => 'filtër',
-    'create_ad' => 'Krijo shpallje',
+    'create_classified' => 'Krijo shpallje',
     'options' => [
         'title' => 'Opsione',
     ],

@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Країна за замовчуванням',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Створіть місце розташування сторінки оголошень',
     ],
     'default_city' => [

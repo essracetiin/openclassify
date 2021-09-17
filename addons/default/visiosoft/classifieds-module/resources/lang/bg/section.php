@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Реклами',
     'user' => 'Потребител',
     'filter' => 'Филтър',
-    'create_ad' => 'Създайте реклама',
+    'create_classified' => 'Създайте реклама',
     'options' => [
         'title' => 'Настроики',
     ],

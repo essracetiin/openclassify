@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'デフォルトの国',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => '広告ページの場所を作成',
     ],
     'default_city' => [

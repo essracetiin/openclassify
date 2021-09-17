@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'País padrão',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Criar local da página de anúncio',
     ],
     'default_city' => [

@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Trgovina',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Sakrij Informacije prodavca',
         'instructions' => 'Sakrij informacije o prodavcu na stranici sa detaljima oglasa',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Prikaži ugovor o objavljivanju oglasa',
         'instructions' => 'Uključite ovo ako želite da na stranici za izradu oglasa prikažete ugovor o politici privatnosti',
     ],

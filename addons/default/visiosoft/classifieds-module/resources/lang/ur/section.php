@@ -41,7 +41,7 @@ return [
     'classifieds' => 'اشتہارات',
     'user' => 'صارف',
     'filter' => 'فلٹر کریں',
-    'create_ad' => 'اشتہار بنائیں',
+    'create_classified' => 'اشتہار بنائیں',
     'options' => [
         'title' => 'اختیارات',
     ],

@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Classifiedertenties',
     'user' => 'Gebruiker',
     'filter' => 'Filter',
-    'create_ad' => 'Maak classifiedertentie',
+    'create_classified' => 'Maak classifiedertentie',
     'options' => [
         'title' => 'Opties',
     ],

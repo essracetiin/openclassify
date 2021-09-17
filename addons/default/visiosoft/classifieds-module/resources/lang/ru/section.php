@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Объявления',
     'user' => 'пользователь',
     'filter' => 'Фильтр',
-    'create_ad' => 'Создать объявление',
+    'create_classified' => 'Создать объявление',
     'options' => [
         'title' => 'Параметры',
     ],

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Últimos Anúncios',
+    'latest_classifieds' => 'Últimos Anúncios',
     'show_all' => 'Mostre tudo',
     'login' => [
         'name' => 'Conecte-se',

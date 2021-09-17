@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Výchozí země',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Vytvořte umístění stránky reklamy',
     ],
     'default_city' => [

@@ -167,7 +167,7 @@ class ClassifiedRepository extends EntryRepository implements ClassifiedReposito
 		if (!empty($param['sort_by'])) {
 			switch ($param['sort_by']) {
 				case "popular":
-					$query = $query->orderBy('classifieds_classifieds.count_show_ad', 'desc');
+					$query = $query->orderBy('classifieds_classifieds.count_show_classified', 'desc');
 					break;
 				case "sort_price_up":
 					$query = $query->orderBy('classifieds_classifieds.price', 'desc');
@@ -514,7 +514,7 @@ class ClassifiedRepository extends EntryRepository implements ClassifiedReposito
 			->whereDate('finish_at', '>=', date("Y-m-d H:i:s"))
 			->where('status', '=', 'approved')
 			->where('slug', '!=', '')
-			->orderBy('count_show_ad', 'desc')
+			->orderBy('count_show_classified', 'desc')
 			->paginate(setting_value('visiosoft.module.classifieds::popular_classifieds_limit', setting_value('streams::per_page')));
 	}
 

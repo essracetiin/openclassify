@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Iklan',
     'user' => 'Pengguna',
     'filter' => 'Saring',
-    'create_ad' => 'Buat Iklan',
+    'create_classified' => 'Buat Iklan',
     'options' => [
         'title' => 'Pilihan',
     ],

@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Domyślny kraj',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Utwórz lokalizację strony reklamy',
     ],
     'default_city' => [

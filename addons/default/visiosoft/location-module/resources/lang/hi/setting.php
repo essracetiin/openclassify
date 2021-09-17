@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'डिफ़ॉल्ट देश',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'विज्ञापन पृष्ठ स्थान बनाएँ',
     ],
     'default_city' => [

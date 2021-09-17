@@ -244,7 +244,7 @@ class VisiosoftModuleClassifiedsCreateClassifiedsFields extends Migration
                 'default_value' => 0,
             ]
         ],
-        'count_show_ad' => [
+        'count_show_classified' => [
             'type' => 'anomaly.field_type.integer',
             'config' => [
                 'default_value' => 0,

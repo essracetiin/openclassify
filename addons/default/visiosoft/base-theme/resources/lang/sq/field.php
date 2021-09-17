@@ -45,7 +45,7 @@ return [
 
     // Side menu links
     'company_directory' => 'Drejtoria e ndërmarrjes',
-    'popular_ads' => 'Njoftimet popullore',
+    'popular_classifieds' => 'Njoftimet popullore',
     'last_48_hours' => '48 orët e fundit',
     'secure_e-commerce_ads' => 'Njoftimet të sigurta për tregtinë elektronike',
     'sms' => 'Dërgoni mesazhe me tekst (SMS)',

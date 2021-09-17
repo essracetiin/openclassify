@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'সর্বশেষ বিজ্ঞাপন',
+    'latest_classifieds' => 'সর্বশেষ বিজ্ঞাপন',
     'show_all' => 'সব দেখাও',
     'login' => [
         'name' => 'প্রবেশ করুন',

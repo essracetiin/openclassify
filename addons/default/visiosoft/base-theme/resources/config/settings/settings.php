@@ -31,13 +31,13 @@ return [
             "default_value" => 1,
         ]
     ],
-    'ad_details' => [
+    'classified_details' => [
         'type' => 'anomaly.field_type.boolean',
         "config" => [
             "default_value" => 1,
         ]
     ],
-    'ad_details_tab' => [
+    'classified_details_tab' => [
         'type' => 'anomaly.field_type.boolean',
         "config" => [
             "default_value" => 1,

@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'মার্কেট প্লেস',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'বিক্রেতার তথ্য লুকান',
         'instructions' => 'বিজ্ঞাপনের বিশদ পৃষ্ঠাতে বিক্রেতা ইনফোদের কাছে লুকানো',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'পোস্ট বিজ্ঞাপন চুক্তি প্রদর্শন করুন',
         'instructions' => 'আপনি বিজ্ঞাপন তৈরি পৃষ্ঠায় কোনও গোপনীয়তা নীতি চুক্তি প্রদর্শন করতে চাইলে এটি চালু করুন',
     ],

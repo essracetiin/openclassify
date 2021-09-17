@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Страна по умолчанию',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Создать страницу с рекламой',
     ],
     'default_city' => [

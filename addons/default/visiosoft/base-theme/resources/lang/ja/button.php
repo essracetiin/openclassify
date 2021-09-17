@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => '広告を投稿',
     ],
     'login' => 'ログインする',

@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Oletusmaa',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Luo mainossivun sijainti',
     ],
     'default_city' => [

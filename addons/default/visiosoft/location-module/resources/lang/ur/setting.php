@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'پہلے سے طے شدہ ملک',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'اشتھاراتی صفحہ کی جگہ بنائیں',
     ],
     'default_city' => [

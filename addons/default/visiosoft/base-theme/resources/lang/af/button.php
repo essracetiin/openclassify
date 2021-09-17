@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => 'Plaas advertensie',
     ],
     'login' => 'Teken aan',

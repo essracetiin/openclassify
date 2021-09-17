@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'ডিফল্ট দেশ',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'বিজ্ঞাপন পৃষ্ঠা অবস্থান তৈরি করুন',
     ],
     'default_city' => [

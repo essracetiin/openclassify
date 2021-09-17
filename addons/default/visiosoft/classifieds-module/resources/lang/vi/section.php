@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Quảng cáo',
     'user' => 'Người dùng',
     'filter' => 'Bộ lọc',
-    'create_ad' => 'Tạo quảng cáo',
+    'create_classified' => 'Tạo quảng cáo',
     'options' => [
         'title' => 'Tùy chọn',
     ],

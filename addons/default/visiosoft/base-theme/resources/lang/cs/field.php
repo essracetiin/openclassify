@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Nejnovější reklamy',
+    'latest_classifieds' => 'Nejnovější reklamy',
     'show_all' => 'Ukázat vše',
     'login' => [
         'name' => 'Přihlásit se',

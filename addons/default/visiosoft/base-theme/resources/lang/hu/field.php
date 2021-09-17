@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Legfrissebb hirdetések',
+    'latest_classifieds' => 'Legfrissebb hirdetések',
     'show_all' => 'Mutasd az összeset',
     'login' => [
         'name' => 'Belépés',

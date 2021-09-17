@@ -247,7 +247,7 @@ class ClassifiedModel extends ClassifiedsClassifiedsEntryModel implements Classi
     public function popularClassifieds()
     {
         return $this->getClassified()->where('status', 'approved')
-            ->orderBy('count_show_ad', 'desc')->limit(10)->get();
+            ->orderBy('count_show_classified', 'desc')->limit(10)->get();
     }
 
     public function classifiedsofDay()
@@ -420,7 +420,7 @@ class ClassifiedModel extends ClassifiedsClassifiedsEntryModel implements Classi
     public function viewed_Ad($id)
     {
         $classified = $this->find($id);
-        $classified->update(['count_show_ad' => intval($classified->count_show_ad) + 1]);
+        $classified->update(['count_show_classified' => intval($classified->count_show_ad) + 1]);
     }
 
     public function getRecommended($id)

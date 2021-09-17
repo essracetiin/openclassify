@@ -45,7 +45,7 @@ return [
 
     // Side menu links
     'company_directory' => 'מדריך החברה',
-    'popular_ads' => 'מודעות פופולריות',
+    'popular_classifieds' => 'מודעות פופולריות',
     'last_48_hours' => '48 השעות האחרונות',
     'secure_e-commerce_ads' => 'מודעות מסחריות מאובטחות',
     'sms' => 'שלח הודעת טקסט (SMS)',

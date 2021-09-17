@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'کشور پیش فرض',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'موقعیت مکانی صفحه را ایجاد کنید',
     ],
     'default_city' => [

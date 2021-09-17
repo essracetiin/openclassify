@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Defolt Ölkə',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Elan səhifəsi yeri yaradın',
     ],
     'default_city' => [

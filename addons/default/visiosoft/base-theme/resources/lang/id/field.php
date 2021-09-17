@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Iklan Terbaru',
+    'latest_classifieds' => 'Iklan Terbaru',
     'show_all' => 'Tunjukkan semua',
     'login' => [
         'name' => 'Gabung',

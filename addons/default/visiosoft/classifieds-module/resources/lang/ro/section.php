@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Reclame',
     'user' => 'Utilizator',
     'filter' => 'Filtru',
-    'create_ad' => 'Creați anunț',
+    'create_classified' => 'Creați anunț',
     'options' => [
         'title' => 'Opțiuni',
     ],

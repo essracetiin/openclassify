@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Uusimmat ilmoitukset',
+    'latest_classifieds' => 'Uusimmat ilmoitukset',
     'show_all' => 'Näytä kaikki',
     'login' => [
         'name' => 'Kirjaudu sisään',

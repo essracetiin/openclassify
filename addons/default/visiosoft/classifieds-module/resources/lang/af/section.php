@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Classifiedertensies',
     'user' => 'Gebruiker',
     'filter' => 'Filtreer',
-    'create_ad' => 'Skep classifiedertensie',
+    'create_classified' => 'Skep classifiedertensie',
     'options' => [
         'title' => 'Opsies',
     ],

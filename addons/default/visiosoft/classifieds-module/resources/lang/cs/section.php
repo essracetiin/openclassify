@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Reklamy',
     'user' => 'Uživatel',
     'filter' => 'Filtr',
-    'create_ad' => 'Vytvořit reklamu',
+    'create_classified' => 'Vytvořit reklamu',
     'options' => [
         'title' => 'Možnosti',
     ],

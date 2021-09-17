@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => 'পোস্ট বিজ্ঞাপন',
     ],
     'login' => 'প্রবেশ করুন',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => [
+    'post_classified' => [
         'name' => 'پوسٹ اشتہار',
     ],
     'login' => 'لاگ ان کریں',

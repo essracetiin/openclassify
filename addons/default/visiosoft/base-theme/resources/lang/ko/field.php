@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => '최신 광고',
+    'latest_classifieds' => '최신 광고',
     'show_all' => '모두 보이기',
     'login' => [
         'name' => '로그인',

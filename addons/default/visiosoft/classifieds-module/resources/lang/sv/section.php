@@ -41,7 +41,7 @@ return [
     'classifieds' => 'annonser',
     'user' => 'Användare',
     'filter' => 'Filtrera',
-    'create_ad' => 'Skapa annons',
+    'create_classified' => 'Skapa annons',
     'options' => [
         'title' => 'alternativ',
     ],

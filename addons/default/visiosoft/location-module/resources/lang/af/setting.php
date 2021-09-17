@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Verstek land',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Skep ligging van advertensiebladsy',
     ],
     'default_city' => [

@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Podrazumevana država',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Lokacija na stranici za kreiranje oglasa',
     ],
     'default_city' => [

@@ -41,7 +41,7 @@ return [
     'classifieds' => 'إعلانات',
     'user' => 'العضو',
     'filter' => 'منقي',
-    'create_ad' => 'أعلن',
+    'create_classified' => 'أعلن',
     'options' => [
         'title' => 'خيارات',
     ],

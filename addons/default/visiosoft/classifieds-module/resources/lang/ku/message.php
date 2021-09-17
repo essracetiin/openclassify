@@ -14,7 +14,7 @@ return [
 ',
     'updated_category_msg' => 'کەتێگۆری بە سەرکەوتوویی دەستکاری کراوە
 ',
-    'create_ad_with_post_cat' => [
+    'create_classified_with_post_cat' => [
         'title' => "هەڵبژاردنی کەتێگۆری تەواو بوو
 ",
         'success' => true,
@@ -29,7 +29,7 @@ return [
 ',
     'success_delete' => 'ڕیکلام سڕایەوە
 ',
-    'pending_ad_status' => 'ڕیکلامەکەت چاوەڕێی پەسەندکردنی بەڕێوەبەرەکەیە
+    'pending_classified_status' => 'ڕیکلامەکەت چاوەڕێی پەسەندکردنی بەڕێوەبەرەکەیە
 ',
     'extended' => 'ژمارەی ڕیکلامی سەرکەوتوو درێژکرایەوە:
 ',
@@ -45,11 +45,11 @@ return [
     'no_add_found' => '! هیچ ڕیکلامێک نەدۆزراوەتەوە',
     'replicated_success' => '! ڕیکلامەکە بە سەرکەوتوویی پێشکەش کرا
 ',
-    'ad_doesnt_exist' => "! ئەم ڕیکلامە بەردەست نییە
+    'classified_doesnt_exist' => "! ئەم ڕیکلامە بەردەست نییە
 ",
     'select_location_error' => "! تکایە شوێنێك لەسەر نەخشەکە هەڵبژێرە
 ",
-    'this_ad_is_not_valid_anymore' => "! چیتر ئەم ڕیکلامە بەردەست نییە
+    'this_classified_is_not_valid_anymore' => "! چیتر ئەم ڕیکلامە بەردەست نییە
 
 ",
     'approve_status_change' => "! دۆخی ڕیکلامەکەت وەک چالاک ڕێکخراوە

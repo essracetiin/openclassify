@@ -45,7 +45,7 @@ return [
 
     // Side menu links
     'company_directory' => 'Thư mục công ty',
-    'popular_ads' => 'Quảng cáo phổ biến',
+    'popular_classifieds' => 'Quảng cáo phổ biến',
     'last_48_hours' => '48 giờ qua',
     'secure_e-commerce_ads' => 'Quảng cáo thương mại điện tử an toàn',
     'sms' => 'Gửi tin nhắn văn bản (SMS)',

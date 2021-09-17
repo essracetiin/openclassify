@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'post_ad' => 'انشر إعلانك',
+    'post_classified' => 'انشر إعلانك',
     'featured_classified' => "الإعلانات المميزة",
     'recent_classified' => "الإعلانات الحديثة",
     'trending_classified' => 'الإعلانات الشائعة',

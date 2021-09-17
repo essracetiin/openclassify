@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Markplein',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Versteek verkoperinligting',
         'instructions' => 'Versteek inligting aan die verkoper op die besonderhede blclassifiedsy',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Toon classifiedertensie-ooreenkoms',
         'instructions' => 'Skakel dit aan as u \'n privaatheidsbeleidsooreenkoms op die classifiedertensie-blclassifiedsy wil vertoon',
     ],

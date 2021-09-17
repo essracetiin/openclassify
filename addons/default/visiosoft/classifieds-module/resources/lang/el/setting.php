@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Αγορά',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Απόκρυψη πληροφοριών πωλητή',
         'instructions' => 'Απόκρυψη στις πληροφορίες πωλητή στη σελίδα λεπτομερειών διαφημίσεων',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Εμφάνιση συμφωνίας μετά τη διαφήμιση',
         'instructions' => 'Ενεργοποιήστε το αν θέλετε να εμφανίσετε μια συμφωνία πολιτικής απορρήτου στη σελίδα δημιουργίας διαφημίσεων',
     ],

@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Mercat',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Amaga la informació del venedor',
         'instructions' => 'Ocultació de la informació del venedor a la pàgina de detalls dels anuncis',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Mostra l\'acord per publicar publicacions',
         'instructions' => 'Activeu aquesta opció si voleu mostrar un acord de política de privadesa a la pàgina de creació d\'anuncis',
     ],

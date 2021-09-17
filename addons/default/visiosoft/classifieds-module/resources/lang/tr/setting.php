@@ -230,7 +230,7 @@ return [
         'name' => 'Satıcı Bilgilerini Gizle',
         'instructions' => 'İlan detay sayfasında satıcı bilgilerinin gizlenmesi',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'İlan Sonrası Sözleşmesini Göster',
         'instructions' => 'Reklam oluşturma sayfasında bir gizlilik politikası sözleşmesi görüntülemek istiyorsanız bunu açın',
     ],

@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Quốc gia mặc định',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Tạo vị trí trang quảng cáo',
     ],
     'default_city' => [

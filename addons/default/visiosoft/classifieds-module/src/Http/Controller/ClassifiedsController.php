@@ -532,13 +532,12 @@ class ClassifiedsController extends PublicController
             $classified = $this->classified_repository->getListItemClassified($id);
         }
 
-        if ((auth()->user() and auth()->user()->hasRole('admin')) or ($classified && ((!$classified->expired() && $classified->getStatus() === 'approved') || $classified->created_by_id === \auth()->id()))) {
+        if ((auth()->user() && auth()->user()->hasRole('admin')) || ($classified && ((!$classified->expired() && $classified->getStatus() === 'approved') || $classified->created_by_id === \auth()->id()))) {
             // Check if created by exists
-            if ((auth()->user() and !auth()->user()->hasRole('admin')) and !$classified->created_by) {
+            if ((auth()->user() && !auth()->user()->hasRole('admin')) && !$classified->created_by) {
                 $this->messages->error('visiosoft.module.classifieds::message.this_ad_is_not_valid_anymore');
                 return $this->redirect->route('visiosoft.module.classifieds::list');
             }
-
             $complaints = null;
             if ($this->classified_model->is_enabled('complaints')) {
                 $complaints = ComplaintsComplainTypesEntryModel::all();
@@ -546,9 +545,9 @@ class ClassifiedsController extends PublicController
 
             $recommended_classifieds = $this->classified_repository->getRecommendedClassifieds($classified->id);
 
-            foreach ($recommended_classifieds as $index => $classified) {
-                $recommended_classifieds[$index]->detail_url = $this->classified_model->getClassifiedDetailLinkByModel($classified, 'list');
-                $recommended_classifieds[$index] = $this->classified_model->AddClassifiedsDefaultCoverImage($classified);
+            foreach ($recommended_classifieds as $index => $recommended_classified) {
+                $recommended_classifieds[$index]->detail_url = $this->classified_model->getClassifiedDetailLinkByModel($recommended_classified, 'list');
+                $recommended_classifieds[$index] = $this->classified_model->AddClassifiedsDefaultCoverImage($recommended_classified);
             }
 
             $categories = array();
@@ -637,7 +636,7 @@ class ClassifiedsController extends PublicController
                 $hidePrice = in_array($classified['cat1'], $hidePriceCats);
             }
 
-            if ($classified->created_by_id == isset(auth()->user()->id) or $classified->status == "approved") {
+            if ($classified->created_by_id === isset(auth()->user()->id) || $classified->status === "approved") {
                 return $this->view->make('visiosoft.module.classifieds::classified-detail/detail', compact('classified', 'complaints',
                     'recommended_classifieds', 'categories', 'features', 'options', 'configurations', 'hidePrice'));
             } else {
@@ -1021,20 +1020,20 @@ class ClassifiedsController extends PublicController
         $auto_approved = $settings->value('visiosoft.module.classifieds::auto_approve');
         $default_published_time = $settings->value('visiosoft.module.classifieds::default_published_time');
 
-        if ($auto_approved == true and $type == 'pending_admin') {
+        if ($auto_approved === true && $type === 'pending_admin') {
             $type = "approved";
         }
-        if ($type == "approved" and $auto_approved != true) {
+        if ($type === "approved" && $auto_approved !== true) {
             $type = "pending_admin";
         }
 
-        if ($type == "approved") {
+        if ($type === "approved") {
             $this->classified_model->publish_at_Classifieds($id);
-            if ($classified->finish_at == NULL and $type == "approved") {
+            if ($classified->finish_at === NULL) {
                 if ($this->classified_model->is_enabled('packages')) {
                     $packageModel = new PackageModel();
                     $published_time = $packageModel->reduceTimeLimit($classified->cat1);
-                    if ($published_time != null) {
+                    if ($published_time !== null) {
                         $default_published_time = $published_time;
                     }
                 }

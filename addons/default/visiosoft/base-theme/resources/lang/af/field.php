@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Nuutste advertensies',
+    'latest_classifieds' => 'Nuutste advertensies',
     'show_all' => 'Wys almal',
     'login' => [
         'name' => 'Teken aan',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Najnoviji oglasi',
+    'latest_classifieds' => 'Najnoviji oglasi',
     'show_all' => 'Pokaži sve',
     'login' => [
         'name' => 'Prijavite se',

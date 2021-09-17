@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => '市场地点',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => '隐藏卖家信息',
         'instructions' => '隐藏在广告详细信息页面中的卖方信息',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => '显示发布广告协议',
         'instructions' => '如果要在广告制作页面上显示隐私权政策协议，请启用此功能',
     ],

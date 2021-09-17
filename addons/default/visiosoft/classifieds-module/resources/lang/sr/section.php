@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Oglasi',
     'user' => 'Korisnik',
     'filter' => 'Filter',
-    'create_ad' => 'Kreiraj oglas',
+    'create_classified' => 'Kreiraj oglas',
     'options' => [
         'title' => 'Opcije',
     ],

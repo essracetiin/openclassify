@@ -1,4 +1,4 @@
-<?php namespace Visiosoft\AdvsModule\Adv\Command;
+<?php namespace Visiosoft\ClassifiedsModule\Classified\Command;
 
 use Illuminate\Filesystem\Filesystem;
 

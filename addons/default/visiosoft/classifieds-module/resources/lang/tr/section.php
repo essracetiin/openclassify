@@ -41,7 +41,7 @@ return [
     'classifieds' => 'İlan',
     'user' => 'Kullanıcı',
     'filter' => 'Filtre',
-    'create_ad' => 'İlan Oluştur',
+    'create_classified' => 'İlan Oluştur',
     'options' => [
         'title' => 'Seçenekler',
     ],

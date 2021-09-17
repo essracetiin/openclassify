@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Siste annonser',
+    'latest_classifieds' => 'Siste annonser',
     'show_all' => 'Vis alt',
     'login' => [
         'name' => 'Logg Inn',

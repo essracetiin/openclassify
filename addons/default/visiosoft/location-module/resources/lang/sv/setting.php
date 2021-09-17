@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Standardland',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Skapa annonssidesplats',
     ],
     'default_city' => [

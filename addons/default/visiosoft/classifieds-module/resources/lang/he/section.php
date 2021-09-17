@@ -41,7 +41,7 @@ return [
     'classifieds' => 'מודעות',
     'user' => 'משתמש',
     'filter' => 'לְסַנֵן',
-    'create_ad' => 'צור מודעה',
+    'create_classified' => 'צור מודעה',
     'options' => [
         'title' => 'אפשרויות',
     ],

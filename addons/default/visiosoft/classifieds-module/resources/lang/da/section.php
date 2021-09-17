@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Annoncer',
     'user' => 'Bruger',
     'filter' => 'Filter',
-    'create_ad' => 'Opret annonce',
+    'create_classified' => 'Opret annonce',
     'options' => [
         'title' => 'Muligheder',
     ],

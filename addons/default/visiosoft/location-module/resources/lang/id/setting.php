@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Negara Default',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Buat Lokasi Halaman Iklan',
     ],
     'default_city' => [

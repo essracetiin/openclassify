@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block content %}
-    {% set phoneLogin = not setting_value('visiosoft.module.advs::register_email_field') or app.request.get('type') == 'phone' %}
+    {% set phoneLogin = not setting_value('visiosoft.module.classifieds::register_email_field') or app.request.get('type') == 'phone' %}
     <div class="row justify-content-center">
         <div class="col-12 text-left m-0 row justify-content-center">
             <div class="col-12 col-lg-5 m-3 login-section">
@@ -75,10 +75,10 @@
                 </div>
                 {{ form_close() }}
 
-                {% if (addBlock('login/oauth') or setting_value('visiosoft.module.advs::register_email_field')) and not setting_value('visiosoft.module.advs::only_email_login') %}
+                {% if (addBlock('login/oauth') or setting_value('visiosoft.module.classifieds::register_email_field')) and not setting_value('visiosoft.module.classifieds::only_email_login') %}
                     <div class="text-center text-muted">- {{ trans('visiosoft.theme.base::field.or') }} -</div>
                     <div class="social-login py-2 px-3">
-                        {% if setting_value('visiosoft.module.advs::register_email_field') %}
+                        {% if setting_value('visiosoft.module.classifieds::register_email_field') %}
                             <a class="btn btn-info text-white w-100 d-flex align-items-center justify-content-center position-relative mb-3"
                                href="{{ url_route('anomaly.module.users::login') }}{{ phoneLogin ? '' : '?type=phone' }}">
                                 <span class="position-relative py-1">

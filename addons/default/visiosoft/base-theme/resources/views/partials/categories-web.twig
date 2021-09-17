@@ -3,7 +3,7 @@
         {% set categoryIcon = (main_category.icon) ? main_category.icon : img('visiosoft.theme.base::images/default-categories-icon.png').url %}
 
         <img src="{{ categoryIcon }}" alt="{{ main_category.name }}" class="img-responsive">
-        <a href="{{ url_route('adv_list_seo', [main_category.slug]) }}" class="main-category">
+        <a href="{{ url_route('classified_list_seo', [main_category.slug]) }}" class="main-category">
             <b>{{ main_category.name }}</b>
             {% if showClassifiedsCount %}
                 <small class="text-muted">
@@ -23,7 +23,7 @@
                     {% endif %}
 
                     <li class="{{ hideclass }}">
-                        <a href="{{ url_route('adv_list_seo', [subcats.c2_slug]) }}"
+                        <a href="{{ url_route('classified_list_seo', [subcats.c2_slug]) }}"
                            class="">{{ subcats.c2_name }}</a>
                         {% if showClassifiedsCount %}
                             <small class="text-muted">

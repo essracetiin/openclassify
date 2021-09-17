@@ -41,7 +41,7 @@ return [
     'classifieds' => 'Reklam',
     'user' => 'Bikaranîvan',
     'filter' => 'Parzûn',
-    'create_ad' => 'Classified biafirînin',
+    'create_classified' => 'Classified biafirînin',
     'options' => [
         'title' => 'Vebijarkên',
     ],

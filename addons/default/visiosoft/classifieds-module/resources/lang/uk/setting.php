@@ -133,8 +133,8 @@ return [
     ],
     'market_place' => [
         'name' => 'Ринок',
-	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example, 
-	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and 
+	    'instructions' => 'If the marketplace is down, your site will act as ecommerce. For example,
+	        some fields in the profile such as classifieds, dopings, messages, sale, packages and store are not visible and
 	        removes corporate membership.'
     ],
     'price_area_hidden' => [
@@ -230,7 +230,7 @@ return [
         'name' => 'Сховати інформацію про продавця',
         'instructions' => 'Приховування інформації про продавця на сторінці деталей оголошень',
     ],
-    'show_post_ad_agreement' => [
+    'show_post_classified_agreement' => [
         'name' => 'Показати угоду про розміщення оголошень',
         'instructions' => 'Увімкніть це, якщо ви хочете відображати угоду про політику конфіденційності на сторінці створення оголошення',
     ],

@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Държава по подразбиране',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Създайте местоположение на рекламната страница',
     ],
     'default_city' => [

@@ -75,7 +75,7 @@ class VisiosoftModuleClassifiedsCreateClassifiedsStream extends Migration
         'cf_json',
         'cover_photo',
         'count_show_phone',
-        'count_show_ad'
+        'count_show_classified'
     ];
 
 }

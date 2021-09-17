@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'نوێترین ڕیکلامەکان
+    'latest_classifieds' => 'نوێترین ڕیکلامەکان
 ',
     'show_all' => 'هەموو نیشاندە',
     'login' => [
@@ -22,7 +22,7 @@ return [
     'last_name' => 'پاشناو',
     'remember_me' => 'من لە بیرە
 ',
-    'not_a_member_yet' => 'تۆ هێشتا ئەندام نیت 
+    'not_a_member_yet' => 'تۆ هێشتا ئەندام نیت
 ',
     'not_a_member_yet_message' => 'خۆت تۆمار بکە بۆ ئەندامەکانمان بۆ سوودمەندبوون لە خزمەتگوزاری تایبەتمان
 ',
@@ -43,7 +43,7 @@ return [
     'personal_registration_list_3' => 'پەیامە بنێرن بۆ خاوەنی دوکان لە سایتەکە
 ',
     'register_information_note' => ' زانیاریەکان لەم پەیجە وەرگیراوە بۆ
-' . env('APPLICATION_DOMAIN') . 'ئەندامێتی. لێرە زانیاری ورد دەربارەی پاراستنی داتا کەسیەکان بدۆزیتەوە 
+' . env('APPLICATION_DOMAIN') . 'ئەندامێتی. لێرە زانیاری ورد دەربارەی پاراستنی داتا کەسیەکان بدۆزیتەوە
 ',
 
     // Register page

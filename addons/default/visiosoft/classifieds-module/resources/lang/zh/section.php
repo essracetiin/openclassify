@@ -41,7 +41,7 @@ return [
     'classifieds' => '广告',
     'user' => '用户',
     'filter' => '筛选',
-    'create_ad' => '制作广告',
+    'create_classified' => '制作广告',
     'options' => [
         'title' => '选项',
     ],

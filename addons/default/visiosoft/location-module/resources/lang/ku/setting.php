@@ -16,7 +16,7 @@ return [
     'default_country' => [
         'name' => 'Welatê Default',
     ],
-    'create_ad_page_location' => [
+    'create_classified_page_location' => [
         'name' => 'Cihê Rûpela Rûpelê biafirînin',
     ],
     'default_city' => [

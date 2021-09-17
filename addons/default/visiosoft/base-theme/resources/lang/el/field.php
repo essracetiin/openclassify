@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'Τελευταίες αγγελίες',
+    'latest_classifieds' => 'Τελευταίες αγγελίες',
     'show_all' => 'Προβολή όλων',
     'login' => [
         'name' => 'Σύνδεση',

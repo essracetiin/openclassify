@@ -9,7 +9,7 @@ return [
                 'fields' => [
                     'sorting_column','sorting_type',
                     'home_page_location', 'list_page_location',
-                    'detail_page_location', 'create_ad_page_location',
+                    'detail_page_location', 'create_classified_page_location',
                     'country_for_phone_field'
                 ],
             ],

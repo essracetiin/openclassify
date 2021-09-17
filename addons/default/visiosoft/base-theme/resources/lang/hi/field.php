@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'latest_classified' => 'नवीनतम विज्ञापन',
+    'latest_classifieds' => 'नवीनतम विज्ञापन',
     'show_all' => 'सब दिखाओ',
     'login' => [
         'name' => 'लॉग इन करें',

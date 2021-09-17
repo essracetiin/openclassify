@@ -41,7 +41,7 @@ return [
     'classifieds' => 'اعلانات',
     'user' => 'یوزر',
     'filter' => 'فیلتر',
-    'create_ad' => 'تبلیغ ایجاد کنید',
+    'create_classified' => 'تبلیغ ایجاد کنید',
     'options' => [
         'title' => 'گزینه ها',
     ],
